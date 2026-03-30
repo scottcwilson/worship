@@ -1,0 +1,1 @@
+<p><strong>WORSHIP WARRIORS Events - Special Holidays &nbsp;&nbsp;</strong></p><p>Please check back to our calendar often for updates. &nbsp;Thank you, Lora</p>

@@ -1,0 +1,1 @@
+<h2><strong>OPPS! 404 Error Page...</strong></h2><p><img src="https://worshipwarriors.net/images/logo.gif" width="250" height="100"></p><p>We're sorry the page you are looking for is not here!&nbsp; <a href="https://worshipwarriors.net">This link will take you to the Home page</a>.</p>

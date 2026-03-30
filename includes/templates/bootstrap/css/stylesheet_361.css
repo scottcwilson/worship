@@ -1,0 +1,7 @@
+/**
+ * "Cache-busting" stylesheet for Bootstrap v3.6.1
+ */
+#shippingEstimatorContent,
+#shoppingcartBody .qtyCell input {
+    width: fit-content;
+}

@@ -1,0 +1,14 @@
+/**
+ * "Cache-busting" stylesheet for Bootstrap v3.7.3
+ */
+.card-body {
+    border-radius: inherit;
+}
+.card-header+.card-body {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.leftBoxCard,
+.rightBoxCard {
+    overflow: hidden;
+}

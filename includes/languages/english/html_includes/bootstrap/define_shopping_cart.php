@@ -1,0 +1,1 @@
+<p>Thank you for shopping with WORSHIP WARRIORS.</p><p><img src="https://worshipwarriors.net/images/MESSIANIC/tt_shalom-lg.png" alt="Shalom and Blessings" width="31" height="14"> (Shalom), Lora</p><p><img src="https://worshipwarriors.net/images/h3bg.gif"></p>

@@ -1,0 +1,6 @@
+/**
+ * "Cache-busting" stylesheet for Bootstrap v3.7.4
+ */
+.pl-dp {
+    min-width: 7rem;
+}

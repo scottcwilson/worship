@@ -1,0 +1,26 @@
+/**
+ * "Cache-busting" stylesheet for Bootstrap v3.6.4
+ */
+a {
+    text-decoration: underline;
+}
+.btn.button_add_selected {
+    position: static;
+    z-index: auto;
+}
+.btn.button_add_selected.bs4-button-float.always {
+    position: fixed;
+    bottom: 7.5rem;
+    z-index: 100;
+}
+@media (max-width: 577px) { 
+    .btn.button_add_selected.bs4-button-float.sm-only {
+        position: fixed;
+        bottom: 5rem;
+        z-index: 100;
+        left: 2vw;
+    }
+    .btn.button_add_selected.bs4-button-hide-sm {
+        display: none;
+    }
+}

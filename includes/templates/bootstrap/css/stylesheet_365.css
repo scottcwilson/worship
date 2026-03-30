@@ -1,0 +1,9 @@
+/**
+ * "Cache-busting" stylesheet for Bootstrap v3.6.5
+ */
+#checkoutPayment label.inputLabelPayment+input[type="checkbox"],
+#checkoutPayment label.inputLabel+input[type="checkbox"] {
+    opacity: 100%;
+    position: initial;
+    margin-left: .5rem;
+}
