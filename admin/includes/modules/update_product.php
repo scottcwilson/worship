@@ -72,6 +72,7 @@ if (isset($_POST['edit']) && $_POST['edit'] === 'edit') {
         'products_discount_type' => (int)$_POST['products_discount_type'],
         'products_discount_type_from' => (int)$_POST['products_discount_type_from'],
         'products_price_sorter' => convertToFloat($_POST['products_price_sorter']),
+        'products_youtube' => zen_db_prepare_input($_POST['products_youtube'] ?? ''),
     ];
 
     $db_filename = zen_limit_image_filename($_POST['products_image'], TABLE_PRODUCTS, 'products_image');

@@ -80,6 +80,9 @@ $define = [
     'TEXT_IMAGE_USED_BY_OTHER_PRODUCTS' => 'Image file not deleted from server because it is used by another product.',
     'TEXT_BUTTON_ADD_ADDITIONAL_IMAGE' => 'Add Additional Image(s)',
     'TEXT_BUTTON_DRAG_DROP_ADDITIONAL_IMAGE' => 'Drag & drop images here or click to select',
+    // Worship
+    'TEXT_PRODUCTS_YOUTUBE' => 'YouTube Video',
+    'TEXT_YOUTUBE_GUIDE' => 'Only paste in the last part.  Example: In <b>https://youtu.be/VTa0n-8lW9E</b> only paste in <b>VTa0n-8lW9E</b>',
 ];
 
 return $define;
