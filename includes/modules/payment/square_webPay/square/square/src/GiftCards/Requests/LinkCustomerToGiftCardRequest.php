@@ -1,0 +1,69 @@
+<?php
+
+namespace Square\GiftCards\Requests;
+
+use Square\Core\Json\JsonSerializableType;
+use Square\Core\Json\JsonProperty;
+
+class LinkCustomerToGiftCardRequest extends JsonSerializableType
+{
+    /**
+     * @var string $giftCardId The ID of the gift card to be linked.
+     */
+    private string $giftCardId;
+
+    /**
+     * @var string $customerId The ID of the customer to link to the gift card.
+     */
+    #[JsonProperty('customer_id')]
+    private string $customerId;
+
+    /**
+     * @param array{
+     *   giftCardId: string,
+     *   customerId: string,
+     * } $values
+     */
+    public function __construct(
+        array $values,
+    ) {
+        $this->giftCardId = $values['giftCardId'];
+        $this->customerId = $values['customerId'];
+    }
+
+    /**
+     * @return string
+     */
+    public function getGiftCardId(): string
+    {
+        return $this->giftCardId;
+    }
+
+    /**
+     * @param string $value
+     */
+    public function setGiftCardId(string $value): self
+    {
+        $this->giftCardId = $value;
+        $this->_setField('giftCardId');
+        return $this;
+    }
+
+    /**
+     * @return string
+     */
+    public function getCustomerId(): string
+    {
+        return $this->customerId;
+    }
+
+    /**
+     * @param string $value
+     */
+    public function setCustomerId(string $value): self
+    {
+        $this->customerId = $value;
+        $this->_setField('customerId');
+        return $this;
+    }
+}
