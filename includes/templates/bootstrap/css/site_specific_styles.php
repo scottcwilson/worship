@@ -19,10 +19,14 @@ site_specific_styles.php<?php
       background: #ffad85 !important; 
    }
 */
+/*
    .ffm-header, #footer-wrapper {
       background: #ffad85; 
    }
-
+*/
+   #siteinfoLegal {
+      background: #fcebcc; /* Regular orange from top */
+   }
    #categoriesContent > .list-group-item { 
       font-weight: bold;
    }
