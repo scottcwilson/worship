@@ -77,7 +77,7 @@ if (isset($_GET['action']) && $_GET['action'] === 'success') {
             <div class="p-2"></div>
 
             <?php echo zen_draw_input_field($antiSpamFieldName, '', ' size="40" id="CUAS" style="visibility:hidden; display:none;" autocomplete="off"'); ?>
-
+            <?php echo recaptcha_get_html(false); ?>
             <div id="contactUs-btn-toolbar" class="btn-toolbar justify-content-end mt-3" role="toolbar">
                 <?php echo zen_image_submit(BUTTON_IMAGE_SEND, BUTTON_SEND_ALT); ?>
             </div>

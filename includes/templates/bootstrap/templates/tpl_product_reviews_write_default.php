@@ -115,7 +115,7 @@ if ($messageStack->size('review_text') > 0) {
             <?php echo zen_draw_textarea_field('review_text', 60, 5, '', 'id="review-text"'); ?>
             
             <?php echo zen_draw_input_field($antiSpamFieldName, '', ' size="60" id="RAS" style="visibility:hidden; display:none;" autocomplete="off"'); ?>
-
+            <?php echo recaptcha_get_html(false); ?>
             <div id="productsReviewWrite-reviewsWriteNotice">
                 <?php echo TEXT_NO_HTML . (REVIEWS_APPROVAL === '1' ? '<br>' . TEXT_APPROVAL_REQUIRED: ''); ?>
             </div>

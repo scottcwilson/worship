@@ -95,7 +95,7 @@ if ($messageStack->size('contact') > 0) {
             <?php echo zen_draw_textarea_field('enquiry', '30', '7', $enquiry, 'id="enquiry" placeholder="' . ENTRY_REQUIRED_SYMBOL . '" required'); ?>
 
             <?php echo zen_draw_input_field($antiSpamFieldName, '', ' size="40" id="CUAS" style="visibility:hidden; display:none;" autocomplete="off"'); ?>
-            
+            <?php echo recaptcha_get_html(false); ?> 
             <div class="btn-toolbar justify-content-end mt-3" role="toolbar">
                 <?php echo zen_image_submit(BUTTON_IMAGE_SEND, BUTTON_SEND_ALT); ?>
             </div>

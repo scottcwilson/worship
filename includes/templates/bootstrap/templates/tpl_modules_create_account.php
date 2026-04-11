@@ -181,7 +181,7 @@ if ($display_nick_field === true) {
             <div class="p-2"></div>
         </div>
     </div>
-
+    <?php echo recaptcha_get_html(false); ?>
     <div id="newsletterDetails-card" class="card mb-3">
         <h4 id="newsletterDetails-card-header" class="card-header"><?php echo ENTRY_EMAIL_PREFERENCE; ?></h4>
         <div id="newsletterDetails-card-body" class="card-body p-3">
