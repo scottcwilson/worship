@@ -69,7 +69,9 @@ if (!isset($flag_disable_footer) || !$flag_disable_footer) {
 <!--eof-banner #5 display -->
 
 <!--bof- site copyright display -->
-    <div id="siteinfoLegal" class="legalCopyright text-center"><?= FOOTER_TEXT_BODY ?></div>
+    <div id="siteinfoLegal" class="legalCopyright text-center"><?= FOOTER_TEXT_BODY ?><br>
+   <img src="images/beanie.png" style="vertical-align:text-bottom;" width="30">&nbsp;<a href="https://thatsoftwareguy.com">Zen Cart Support</a> by That Software Guy
+    </div>
 <!--eof- site copyright display -->
 </div>
 <?php

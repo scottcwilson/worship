@@ -60,6 +60,11 @@ if (in_array($current_page_base, explode(',', str_replace(' ', '', 'checkout_shi
     $flag_disable_left = true;
 }
 
+if ($this_is_home_page) {
+  $flag_disable_right = true;
+  $flag_disable_left = true;
+}
+
 // ZCA BOOTSTRAP TEMPLATE
 if (!empty($flag_disable_right) || COLUMN_RIGHT_STATUS === '0' || SET_COLUMN_RIGHT_LAYOUT === '0') {
     $flag_disable_right = true;

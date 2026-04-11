@@ -65,7 +65,9 @@ if ($_SESSION['cart']->count_contents() > 0) {
                         </li>
 <?php
 }
-
+?>
+    <li class="nav-item"><a class="nav-link" href="<?php echo zen_href_link(FILENAME_SPECIALS); ?>"><?php echo CATEGORIES_BOX_HEADING_SPECIALS; ?></a></li>
+<?php
 require $template->get_template_dir('tpl_offcanvas_menu.php', DIR_WS_TEMPLATE, $current_page_base, 'common') . '/tpl_offcanvas_menu.php';
 ?>
                     </ul>

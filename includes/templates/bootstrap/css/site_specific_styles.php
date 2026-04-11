@@ -13,8 +13,15 @@ h3 { font-size: 120%;font-weight:normal; text-transform:uppercase;}
 .card-body { 
    background-color: var(--ZCA_BODY_BACKGROUND_COLOR); 
 }
+#footer-menu > div,
+#footer-wrapper,
+#footerWrapper,
+#footer-menu,
 #flex-navSupp {
-   background-color: #ffad85;
+   background-color: #ffad85 !important;
+}
+#siteinfoLegal {
+   background-color: #fcebcd !important; 
 }
 #siteinfoIP {
    text-align: center;
