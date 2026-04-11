@@ -103,6 +103,8 @@ if (isset($cPath) && zen_not_null($cPath)) {
             unset($_GET['cPath']);
             $breadcrumb->reset();
             $robotsNoIndex = true;
+            // special for Worship - go to home page 
+            zen_redirect(zen_href_link(FILENAME_DEFAULT)); 
             header('HTTP/1.1 404 Not Found');
 //-bof-Comment the following four (4) lines out to display disabled categories
         } elseif ($current_category_is_disabled) {

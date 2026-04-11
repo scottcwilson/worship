@@ -108,6 +108,15 @@ if ($products_description != '') {
 ?>
             <!--eof Product description -->
 
+<!-- bof YouTube video --> 
+<?php 
+if (!empty($products_youtube)) {
+    echo '<div id="productYouTube"><iframe width="560" height="315" src="https://www.youtube.com/embed/' . $products_youtube . '" 
+       frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>' . "\n"; 
+} 
+?>
+<!-- eof YouTube video --> 
+
             <!--bof Reviews button and count-->
 <?php
 if ($flag_show_product_info_reviews === '1') {

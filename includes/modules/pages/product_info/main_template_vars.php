@@ -66,6 +66,7 @@ if ($product_not_found) {
 
     $products_name = $product_data['products_name'];
     $products_model = $product_data['products_model'];
+    $products_youtube = $product_data['products_youtube'];
 
     // if no common markup tags in description, add line breaks for readability:
     $products_description = $product_data['products_description'] ?? '';
