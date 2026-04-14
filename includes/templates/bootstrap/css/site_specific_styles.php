@@ -10,8 +10,11 @@ h3 { font-size: 120%;font-weight:normal; text-transform:uppercase;}
 #siteinfoLegal {
    text-align: center;
 }
-.card-body { 
-   background-color: var(--ZCA_BODY_BACKGROUND_COLOR); 
+.card-body {
+   background-color: var(--ZCA_BODY_BACKGROUND_COLOR);
+}
+#productsListing .card-body {
+   background-color: #fcebcd;
 }
 #footer-menu > div,
 #footer-wrapper,
@@ -25,6 +28,19 @@ h3 { font-size: 120%;font-weight:normal; text-transform:uppercase;}
 }
 #siteinfoIP {
    text-align: center;
+}
+.ffm-card,
+.ffm-card .list-group-item {
+   background-color: #ffad85 !important;
+   color: #fff;
+}
+.ffm-card a {
+   color: #fff;
+}
+.ffm-image-link {
+   display: flex;
+   justify-content: center;
+   padding: 0;
 }
 #logoimg {
    text-align: center;

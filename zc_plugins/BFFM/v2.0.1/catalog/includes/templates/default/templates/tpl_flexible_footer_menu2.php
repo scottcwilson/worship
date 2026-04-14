@@ -51,12 +51,12 @@ foreach ($ffmm_content as $col_id => $column_data) {
             if (empty($column_values['link'])) {
 ?>
             <li class="list-group-item ffm-image">
-                <?= zen_image(DIR_WS_IMAGES . $column_values['image'], '', '', '', 'class="mx-auto d-block img-fluid"') ?>
+                <?= zen_image(DIR_WS_IMAGES . $column_values['image'], get_image_alt($column_values['image']), '', '', 'class="mx-auto d-block img-fluid"') ?>
 <?php
             } else {
 ?>
             <li class="list-group-item ffm-image-link">
-                <a href="<?= $column_values['link'] ?>"><?= zen_image(DIR_WS_IMAGES . $column_values['image'], '', '', '', 'class="mx-auto d-block img-fluid"') ?></a>
+                <a href="<?= $column_values['link'] ?>"><?= zen_image(DIR_WS_IMAGES . $column_values['image'], get_image_alt($column_values['image']), '', '', 'class="mx-auto d-block img-fluid"') ?></a>
 <?php
             }
         }
