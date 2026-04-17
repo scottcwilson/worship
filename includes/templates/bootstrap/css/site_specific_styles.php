@@ -35,7 +35,7 @@ h3 { font-size: 120%;font-weight:normal; text-transform:uppercase;}
    color: #fff;
 }
 .ffm-card a {
-   color: #fff;
+   color: blue; 
 }
 .ffm-image-link {
    display: flex;
@@ -45,5 +45,21 @@ h3 { font-size: 120%;font-weight:normal; text-transform:uppercase;}
 #logoimg {
    text-align: center;
    width: 100%;
+}
+a {
+  text-decoration: none;
+  color: blue;
+}
+a hover {
+  text-decoration: underline;
+}
+.card {
+   background-color: var(--ZCA_BODY_BACKGROUND_COLOR);
+}
+#siteinfoLegal a {
+  color: blue;
+}
+#whosonlineContent, #bannerboxContent, .leftBoxCard, .centerBoxContentsListing {
+  background: white;
 }
 </style>

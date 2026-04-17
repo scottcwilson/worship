@@ -33,6 +33,7 @@ $display_order_options = [
     ['id' => '7', 'text' => TEXT_INFO_SORT_BY_PRODUCTS_DATE],
 ];
 ?>
+<?php /* 
 <div id="listingDisplayOrderSorter" class="row">
     <label for="disp-order-sorter" class="mb-0 mt-1 mx-2"><?= TEXT_INFO_SORT_BY ?></label>
 <?php
@@ -49,4 +50,5 @@ echo
         zen_draw_pull_down_menu('disp_order', $display_order_options, $disp_order, 'id="disp-order-sorter" onchange="this.form.submit();"') .
     '</form>';
 ?>
-</div>
+    </div>
+ */ ?>
