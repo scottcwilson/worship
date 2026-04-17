@@ -25,8 +25,8 @@ $define = [
     'HEADING_BENEFIT_2' => 'Shopping Cart',
     'TEXT_BENEFIT_2' => 'We will save the contents of your shopping cart between visits, so long as you are signed in.',
 
-    'HEADING_BENEFIT_3' => 'E-mail Newsletters',
-    'TEXT_BENEFIT_3' => 'Sign up for our newsletter.',
+    'HEADING_BENEFIT_3' => '',
+    'TEXT_BENEFIT_3' => '',
 
     'HEADING_BENEFIT_4' => '',
     'TEXT_BENEFIT_4' => '',
