@@ -45,3 +45,4 @@ dev-*.*
 bmz_cache/*
 /backups/
 /images/
+/download/*
